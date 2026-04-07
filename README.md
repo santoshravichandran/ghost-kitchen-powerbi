@@ -93,48 +93,14 @@ Dataset: Procedurally generated using Python (pandas/NumPy) — 5,000 orders, 3 
 
 
 
-## Repository Structure
-
-ghost-kitchen-powerbi/
-├── data/
-│   ├── raw/                        # Source CSVs (orders, menu, kitchens)
-│   └── generated/
-│       └── generate_data.py        # Python script to regenerate data
-├── pbix/
-│   └── Doorstep Kitchen_Analytics.pbix
-├── pbit/
-│   └── Doorstep Kitchen_Analytics.pbit # Template — no data rows, safe to share
-├── dax/
-│   ├── measures.xlsx
-├── docs/
-│   ├── Data_Dictionary.xlsx
-│   └── Screenshots/
-├── theme/
-│   └── GK_THEME.json
-├── .gitignore
-├── README.md
-└── CHANGELOG.md
-
-
-
 ## How to Use
 
 
-1. Clone the repository
-
-bash
-
-git clone https://github.com/santoshravichandran/ghost-kitchen-powerbi.git
+1. Clone the repository - git clone https://github.com/santoshravichandran/ghost-kitchen-powerbi.git
 
 2. Run the data generation script to produce the CSV files
 
-bash
-
-cd data/generated
-
-python generate_data.py
-
-3. Open `pbit/GhostKitchen_Analytics.pbit` in Power BI Desktop
+3. Open `pbit/Doorstep Kitchen_Analytics.pbit` in Power BI Desktop
 
 4. Point the three data sources to your local `data/raw/` folder when prompted
 
@@ -145,9 +111,7 @@ python generate_data.py
 
 
 
-
 ## Data Model
-
 
 
 Star schema with FactOrders at the centre:
