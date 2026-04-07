@@ -1,4 +1,4 @@
-# Doorstep Analytics — Power BI Portfolio Project (Ghost Kitchen - Concept)
+# Doorstep Kitchen Analytics — Power BI Portfolio Project (Ghost Kitchen - Concept)
 
 > End-to-end Power BI solution answering 10 business questions across 5,000 simulated delivery orders from 3 ghost kitchen locations across a 60-day window.
 
